@@ -13,7 +13,7 @@ const config = {
     extend: {
       backgroundImage: {
         'hero': 'url("assets/hero3.png")', 
-        'about': 'url("assets/hero2.png")', 
+        'about': 'url("assets/hero6.png")', 
       },
     },
   },
