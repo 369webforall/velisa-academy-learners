@@ -9,8 +9,8 @@ const links = [
   { id: 1, href: '/', label: 'Home' },
   { id: 2, href: '/about', label: 'About Us' },
   { id: 3, href: '/services', label: 'Our Services' },
-  { id: 2, href: '/portfolio', label: 'Portfolio' },
-  { id: 2, href: '/contact', label: 'Contact Us' },
+  { id: 4, href: '/portfolio', label: 'Portfolio' },
+  { id: 5, href: '/contact', label: 'Contact Us' },
 ];
 const Header = () => {
   const { theme, setTheme } = useTheme();
@@ -39,9 +39,12 @@ const Header = () => {
               </SheetContent>
             </Sheet>
             <Link href="/" className="text-sm font-medium transition-colors">
-              <h1 className="text-2xl md:text-4xl font-bold text-orange-500">
-                WEB
+              <h1 className="text-xl md:text-2xl font-bold text-green-700">
+                Velisa Africa
               </h1>
+              <h2 className="text-lg italic font-thin text-green-600">
+                Web Agency for learners
+              </h2>
             </Link>
           </div>
           <nav className="mx-6 space-x-4 lg:space-x-6 hidden md:flex items-center">
