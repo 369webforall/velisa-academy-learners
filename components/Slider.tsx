@@ -30,13 +30,13 @@ const Slider = () =>  {
       }}
     >
       <SwiperSlide>
-        <div className="bg-green-600 h-[70vh]  lg:h-[65vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md">
-      
-          <h1 className='text-sm md:text-2xl font-bold text'>Starter Website Package</h1>
-          <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Responsive Design</p>
-          <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Content Management System</p>
-          <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Domain and Hosting Setup</p>
-          <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Customized Website Design</p>
+        <div className=" lg:h-[80vh] h-[75vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md border-4 px-3">
+          <img src="https://www.swervedesigns.co.za/wp-content/uploads/icon-data-analytic-accept.png" alt='slider' className='w-28 h-28' />
+          <h1 className='text-sm md:text-1xl font-bold text-green-500'>Starter Website Package</h1>
+          <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Responsive Design</p>
+          <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Content Management System</p>
+          <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Domain and Hosting Setup</p>
+          <p className=' text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Customized Website Design</p>
            
           
           <BsCodeSlash className=' w-10 h-10 '/>
@@ -48,13 +48,13 @@ const Slider = () =>  {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-green-500 h-[70vh]  lg:h-[65vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md">
-      
-      <h1 className='text-sm md:text-2xl font-bold text'>E-Commerce Solution</h1>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Online Store Creation</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Payment Gateway Integration</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Inventory Management</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Product Reviews and Ratings</p>
+      <div className=" lg:h-[80vh] h-[75vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md border-4 px-3">
+      <img src="https://www.swervedesigns.co.za/wp-content/uploads/icon-target-calculator-calcucations.png" alt='slider' className='w-28 h-28' />
+      <h1 className='text-sm md:text-1xl font-bold text-green-500'>E-Commerce Solution</h1>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Online Store Creation</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Payment Gateway Integration</p>
+      <p className='text-sm md:text-1xlflex-row flex gap-3 items-center'><TiTickOutline/>Inventory Management</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Product Reviews and Ratings</p>
       <AiOutlineShoppingCart className='w-10 h-10'/>
       <Button variant="outline" className=' w-[50%] flex justify-center'>
         <Link href='/'>Select</Link>
@@ -62,13 +62,13 @@ const Slider = () =>  {
     </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-green-400 h-[70vh]  lg:h-[65vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md">
-      
-      <h1 className='text-sm md:text-2xl font-bold text'>Custom Web App</h1>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Custom Development</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Scalability and Integration</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>User Training</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Ongoing Maintenance </p>
+      <div className=" lg:h-[80vh] h-[75vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md border-4 px-3">
+      <img src="https://www.swervedesigns.co.za/wp-content/uploads/icon-chart-analytic-graph.png" alt='slider' className='w-28 h-28' />
+      <h1 className='text-sm md:text-1xl font-bold text-green-500'>Custom Web App</h1>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Custom Development</p>
+      <p className=' text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Scalability and Integration</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>User Training</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Ongoing Maintenance </p>
       <GiReceiveMoney className=' w-10 h-10'/>
       <Button variant="outline" className=' w-[50%] flex justify-center'>
         <Link href='/'>Select</Link>
@@ -76,13 +76,13 @@ const Slider = () =>  {
     </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-green-300 h-[70vh]  lg:h-[65vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md">
-      
-      <h1 className='text-sm md:text-2xl font-bold text'>SEO & Digital Marketing</h1>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Pay-Per-Click Advertising</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Social Media Marketing</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Email Marketing</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Analytics and Reporting</p>
+      <div className=" lg:h-[80vh] h-[75vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md border-4 px-3">
+      <img src="https://www.swervedesigns.co.za/wp-content/uploads/icon-data-analytic-accept.png" alt='slider' className='w-28 h-28' />
+      <h1 className='text-sm md:text-1xl font-bold text-green-500'>SEO & Digital Marketing</h1>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Pay-Per-Click Advertising</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Social Media Marketing</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Email Marketing</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Analytics and Reporting</p>
       <TbSeo className=' w-10 h-10'/>
       <Button variant="outline" className=' w-[50%] flex justify-center'>
         <Link href='/'>Select</Link>
@@ -90,13 +90,13 @@ const Slider = () =>  {
     </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="bg-green-200 h-[70vh]  lg:h-[65vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md">
-      
-      <h1 className='text-sm md:text-2xl font-bold text'>Maintenance & Support</h1>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Regular updates</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>24/7 Technical Support</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Security Monitoring</p>
-      <p className='flex-row flex gap-3 items-center'><TiTickOutline/>Performance Optimization</p>
+      <div className=" lg:h-[80vh] h-[75vh] flex flex-col items-center justify-center gap-3 font-semibold rounded-lg shadow-md border-4 px-3">
+      <img src="https://www.swervedesigns.co.za/wp-content/uploads/icon-target-calculator-calcucations.png" alt='slider' className='w-28 h-28' />
+      <h1 className='text-sm md:text-1xl font-bold text-green-500'>Maintenance & Support</h1>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Regular updates</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>24/7 Technical Support</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Security Monitoring</p>
+      <p className='text-sm md:text-1xl flex-row flex gap-3 items-center'><TiTickOutline/>Performance Optimization</p>
       <GrCloudSoftware className=' w-10 h-10'/>
       <Button variant="outline" className=' w-[50%] flex justify-center'>
         <Link href='/'>Select</Link>
