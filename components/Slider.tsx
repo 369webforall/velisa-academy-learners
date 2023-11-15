@@ -61,7 +61,7 @@ const Slider = () => {
           </p>
 
           <BsCodeSlash className=" w-10 h-10 " />
-          <Button variant="outline" className=" w-[50%] flex justify-center">
+          <Button variant="velisa" className=" w-[50%] flex justify-center">
             <Link href="/">Select</Link>
           </Button>
         </div>
@@ -95,7 +95,7 @@ const Slider = () => {
             Product Reviews and Ratings
           </p>
           <AiOutlineShoppingCart className="w-10 h-10" />
-          <Button variant="outline" className=" w-[50%] flex justify-center">
+          <Button variant="velisa" className=" w-[50%] flex justify-center">
             <Link href="/">Select</Link>
           </Button>
         </div>
@@ -129,7 +129,7 @@ const Slider = () => {
             Ongoing Maintenance{' '}
           </p>
           <GiReceiveMoney className=" w-10 h-10" />
-          <Button variant="outline" className=" w-[50%] flex justify-center">
+          <Button variant="velisa" className=" w-[50%] flex justify-center">
             <Link href="/">Select</Link>
           </Button>
         </div>
@@ -163,7 +163,7 @@ const Slider = () => {
             Analytics and Reporting
           </p>
           <TbSeo className=" w-10 h-10" />
-          <Button variant="outline" className=" w-[50%] flex justify-center">
+          <Button variant="velisa" className=" w-[50%] flex justify-center">
             <Link href="/">Select</Link>
           </Button>
         </div>
@@ -197,7 +197,7 @@ const Slider = () => {
             Performance Optimization
           </p>
           <GrCloudSoftware className=" w-10 h-10" />
-          <Button variant="outline" className=" w-[50%] flex justify-center">
+          <Button variant="velisa" className=" w-[50%] flex justify-center">
             <Link href="/">Select</Link>
           </Button>
         </div>

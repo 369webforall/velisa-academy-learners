@@ -11,7 +11,7 @@ const Faq = () => {
   return (
     <Container>
       <Box>
-        <Heading mb="2" size="6">
+        <Heading mb="2" size="6" className='text-green-700'>
           Frequently Asked Questions
         </Heading>
       </Box>

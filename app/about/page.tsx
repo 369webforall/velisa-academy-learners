@@ -80,7 +80,7 @@ const about = () => {
   ];
   return (
     <>
-      <div className="w-full lg:w-[100%] lg:h-[100vh] flex flex-col lg:flex-row mx-auto px-4 lg:px-10 ">
+      <div className="w-full lg:w-[100%] lg:h-[100%] flex flex-col lg:flex-row mx-auto px-4 lg:px-10 ">
         <div className="lg:flex-1  bg-no-repeat h-[200px] lg:h-[70vh] flex items-center justify-center">
           <Image
             src="https://velisaafrica.co.za/wp-content/uploads/2018/03/Velisa-Landscape-Logo.png"
@@ -91,7 +91,7 @@ const about = () => {
           />
         </div>
         <div className="lg:flex-1  ">
-          <h1 className="text-3xl font-semibold mb-4 flex justify-center text-green-700 ">
+          <h1 className="text-4xl font-semibold mb-4 flex justify-center text-green-700 ">
             Velisa Africa Web Agency
           </h1>
           <p className="text-base lg:text-lg xl:text-xl mt-6 mb-6 ">
@@ -113,7 +113,7 @@ const about = () => {
           </p>
 
           <Button
-            variant="destructive"
+            variant="velisa"
             className=" w-[100%] flex justify-center lg:mt-10"
           >
             <Link href="/services">Our Services</Link>
@@ -121,8 +121,8 @@ const about = () => {
         </div>
       </div>
 
-      <div className="container mx-auto my-8">
-        <h2 className="text-3xl font-semibold mb-4 flex justify-center text-green-700">
+      <div className="container mx-auto my-10">
+        <h2 className="text-4xl font-semibold mb-4 flex justify-center text-green-700">
           Meet the Team
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6  ">
@@ -146,7 +146,7 @@ const about = () => {
       </div>
 
       <div className="pb-30 pt-30 bg-gradient-to-r from-transparent via-transparent to-transparent bg-repeat-x border-r-0 border-l-0 h-[100%] container mx-auto my-8">
-        <h2 className="text-3xl font-semibold mb-4 flex justify-center text-green-700">
+        <h2 className="text-4xl font-semibold mb-4 flex justify-center text-green-700">
           Previous Clients
         </h2>
         <div className="flex flex-row justify-center space-x-5">
