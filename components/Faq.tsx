@@ -26,16 +26,6 @@ const Faq = () => {
             Node.js), Next.js, Tailwind CSS, Radix UI, and Shadow DOM.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-1">
-          <AccordionTrigger>
-            1. What services does your web agency offer?
-          </AccordionTrigger>
-          <AccordionContent>
-            We specialize in a wide range of web development services, including
-            HTML, CSS, JavaScript, MERN Stack (MongoDB, Express.js, React.js,
-            Node.js), Next.js, Tailwind CSS, Radix UI, and Shadow DOM.
-          </AccordionContent>
-        </AccordionItem>
         <AccordionItem value="item-2">
           <AccordionTrigger>
             2. How can I request a quote for a project?

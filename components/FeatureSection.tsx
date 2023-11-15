@@ -29,10 +29,16 @@ const FeatureSection = () => {
 
           {/* Feature 3 */}
           <FeatureCard
-            title="Next.js Optimization"
+            title="Nextjs Web Development"
             description="Utilize the power of Next.js for fast, optimized, and scalable web applications."
             icon="⚡"
           />
+          {/* Feature 3
+          <FeatureCard
+            title="SEO & Upgrade web site"
+            description="Upgrade your website with latest tech, Nextjs, for fast, optimized, and scalable web applications and improved SEO"
+            icon="⛅"
+          /> */}
         </div>
       </Container>
     </Box>
